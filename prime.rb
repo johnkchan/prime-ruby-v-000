@@ -1,10 +1,10 @@
 def prime?(integer)
-  if integer == 1
-    return false
-  end
   i = 2
   if integer < 0
     integer *= -1
+  end
+  if integer == 1
+    return false
   end
   while i < integer.abs
     puts i
